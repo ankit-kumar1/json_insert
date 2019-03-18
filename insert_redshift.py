@@ -18,3 +18,4 @@ df.to_sql('message_blast', conn, index=False, if_exists='append',
           )
 
 
+## other data files can be inserted in a similar way
