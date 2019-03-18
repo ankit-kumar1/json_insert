@@ -1,5 +1,6 @@
 # json_insert
 inserting json file directly to redshift
+#some sql that can be run on the database
 
 The stakeholder wants the message_blast chart to have two new fields: total_emails_clicked and total_emails_opened. How can we provide this information?
 select count(opens) as total_emails_opened from message_blast where opens!='null'
